@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Dashboard</title>
+    <link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="gauge-container">
+            <canvas id="tempGauge"></canvas>
+            <div class="label">Temp</div>
+        </div>
+        <div class="gauge-container">
+            <canvas id="humGauge"></canvas>
+            <div class="label">Hum</div>
+        </div>
+        <div class="gauge-container">
+            <canvas id="waterLevelGauge"></canvas>
+            <div class="label">Water Level</div>
+        </div>
+        <div class="gauge-container">
+            <canvas id="soilMoistureGauge"></canvas>
+            <div class="label">Soil Moisture</div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
